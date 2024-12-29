@@ -31,4 +31,4 @@ for x in ufw fail2ban; do
 	systemctl enable "$x"
 done
 
-print "\n\nfail2ban successfully installed.\nYou may check the banned list with sudo fail2ban-client banned"
+printf "\n\nfail2ban successfully installed.\nYou may check the banned list with sudo fail2ban-client banned"
