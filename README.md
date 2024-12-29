@@ -5,5 +5,5 @@ Usage:
 
 ```sh
 curl -LO https://raw.githubusercontent.com/PerAsperaAdAstra042/install_fail2ban/refs/heads/master/install_fail2ban.sh
-sudo ./install_fail2ban.sh
+sudo bash install_fail2ban.sh
 ```
